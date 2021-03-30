@@ -177,6 +177,10 @@ address {
 	display: flex;
 	align-items: center;
 }
+.main-container .link:hover,
+.main-container .link:focus {
+	color: var(--accent-color);
+}
 /* hero*/
 .hero {
 	padding-top: 200px;
@@ -245,11 +249,8 @@ address {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 25px 100px;
+	height: 120px;
 	background-color: var(--secondary-bg-color);
-}
-.features .list {
-	margin-bottom: 30px;
 }
 
 /*work*/
@@ -386,8 +387,8 @@ address {
 .contacts-item > .address {
 	color: var(--secondary-text-color);
 }
-.link:hover,
-.link:focus {
+.contacts-item .link:hover,
+.contacts-item .link:focus {
 	color: var(--accent-color);
 }
 
